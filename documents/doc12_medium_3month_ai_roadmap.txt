@@ -1,0 +1,40 @@
+SOURCE: Medium: 3-month self-study plan from SWE to DeepMind Research Engineer
+URL: https://gordicaleksa.medium.com/get-started-with-ai-and-machine-learning-in-3-months-5236d5e0f230
+DATE: 2022
+============================================================
+
+Get Started with AI and Machine Learning in 3 Months
+
+This is the roadmap I wish existed when I was trying to break into AI research. It is opinionated and deliberately specific. There are many ways to learn ML — this is the one that worked for me when transitioning from a SWE background to an AI research role.
+
+Month 1: Foundations you cannot skip
+
+Week 1-2: Linear algebra and probability. You do not need to derive everything from scratch, but you need to understand matrix multiplication (and why it matters for neural networks), eigendecomposition (for dimensionality reduction and PCA), and basic probability distributions. Resources: 3Blue1Brown's Essence of Linear Algebra (YouTube), the probability review from the Stanford CS229 lecture notes.
+
+Week 3-4: Python for ML. If you already code, this is mostly about learning the stack: NumPy, pandas, matplotlib. Spend time understanding NumPy array broadcasting — it is the source of a surprising number of bugs in ML code and understanding it makes you significantly faster. Complete the fast.ai "Practical Deep Learning" Part 1 through lesson 3.
+
+By the end of month 1, you should be able to: implement a linear regression from scratch in NumPy, understand what gradient descent is doing geometrically, and use PyTorch to build a simple neural network.
+
+Month 2: Building and deploying a first project
+
+Week 5-6: Choose a concrete project and start it. Do not choose a project from a tutorial. Choose a problem you care about. The constraint: it must involve data you collect yourself and it must end with something deployed. This is non-negotiable. The most important learning in ML comes from the gap between "this works in my notebook" and "this works when someone else uses it." You cannot learn that gap without deploying something.
+
+Week 7-8: Learn PyTorch in depth by implementing the project. Study the Andrej Karpathy tutorials — specifically the "micrograd" and "makemore" series. These are the best explanations of what a neural network is actually doing that I have found anywhere. Do not just watch them — code along.
+
+By the end of month 2, you should have: one deployed project with a real interface, working knowledge of PyTorch including custom training loops, and understanding of at least one architecture (CNN, Transformer, or RNN depending on your project).
+
+Month 3: Evaluating and iterating
+
+Week 9-10: Evaluate your project honestly. Define metrics. Measure them. Find cases where your model fails. Write about the failure cases. This is the most valuable month, and the one people skip. It is also the month that most separates candidates in ML interviews. If you can say "my model fails in these specific ways, because of this specific cause, and here is what I tried to fix it," you will outperform candidates who only know how to build the happy path.
+
+Week 11-12: Iterate based on your evaluation. Try one thing that your initial analysis suggested would help. Measure whether it helped. If you're working on NLP, this might be trying a different embedding model or changing your chunking strategy. If you're working on computer vision, it might be data augmentation or a different architecture. Document what you tried and what the results were.
+
+By the end of month 3, you should have: a deployed project with documented evaluation metrics, a written analysis of failure cases, and evidence of at least one iteration that improved performance.
+
+On the Kaggle question: Kaggle competitions are a good way to learn the evaluation mindset — how to measure model quality rigorously and compare approaches systematically. I recommend doing one competition during month 2 or 3 as a parallel exercise. Do not make Kaggle your primary focus because Kaggle problems are pre-cleaned and pre-defined, which is the opposite of real ML work.
+
+On the job search: three months of intensive self-study will not make you competitive for a research scientist role at DeepMind. That took me three years of this kind of work, plus a published paper. But three months of intentional project work will make you competitive for applied ML roles at startups and AI product companies. Set realistic expectations about what you're building toward and make sure your effort is directed there.
+
+The most common mistake: spending three months going through courses and tutorials and having nothing shipped at the end. Courses are inputs. Projects are outputs. Hiring managers evaluate outputs.
+
+The second most common mistake: building a technically impressive project that solves a problem nobody has. For a portfolio, pick a problem where you can get real feedback — user feedback, measurable business impact, or comparison to a clear baseline. Your project tells a story. Make sure the story is about solving a real problem, not about demonstrating that you can implement a paper.

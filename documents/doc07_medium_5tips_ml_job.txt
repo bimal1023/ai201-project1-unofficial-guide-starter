@@ -1,0 +1,48 @@
+SOURCE: Medium: 5 no-BS tips to get your first ML job — learning in public and building real projects
+URL: https://mrdbourke.medium.com/5-no-bs-tips-to-help-you-get-your-first-machine-learning-job-f0446342a4a1
+DATE: 2022
+============================================================
+
+5 No-BS Tips to Help You Get Your First Machine Learning Job
+
+I spent two years trying to break into ML and finally did it. Here is what actually worked, stripped of the self-help fluff.
+
+Tip 1: Build in public, not in private
+
+The single most effective thing I did was start writing about what I was learning. Not "explaining AI to beginners" content — that market is saturated. Specific, honest write-ups of projects I was working on: what I tried, what failed, what I changed, what I measured.
+
+This did three things: it forced me to understand my work well enough to explain it, it created a record that hiring managers could evaluate, and it occasionally caught the attention of people who were hiring. I got my first ML engineering interview from a blog post I wrote about a specific retrieval failure I debugged. The hiring manager emailed me because the post showed I could think about systems, not just implement tutorials.
+
+The medium for building in public does not matter — blog, Twitter/X, LinkedIn, GitHub. What matters is consistency and specificity. Vague "I'm learning ML" posts do nothing. Specific "I found that 400-character chunks with 50-character overlap outperformed 200-character chunks on my test queries, here is the data" posts get people's attention.
+
+Tip 2: Build things that are deployed, not notebooks
+
+I cannot stress this enough: tutorial notebooks are not portfolio items. They are study materials. A portfolio item is something that runs, that other people can use, and that you understand end-to-end.
+
+My recommendation: take any tutorial you found useful and rebuild it from scratch as a deployed application. Same algorithm, different data, real interface. This forces you to deal with the gap between "I understand how this works" and "I can ship this." The gap is enormous, and you will learn more closing it than you will from doing twenty more tutorials.
+
+What counts as "deployed": a public Hugging Face Space, a web app hosted on Railway or Render, a public API with documentation, a GitHub repository with an actual working demo (not just code). Aim to have at least one project that a non-technical person could use.
+
+Tip 3: Use Kaggle strategically, not obsessively
+
+Kaggle competitions are genuinely useful for two things: learning to work with real datasets and practicing model evaluation. They are not a reliable path to employment. A top-100 finish on a competitive Kaggle challenge is a meaningful signal. A collection of completed notebooks on beginner competitions is not.
+
+My advice: do two or three Kaggle competitions to learn the workflow, place well enough to have something to mention, and then move on to building real applications. If you spend six months on Kaggle and have nothing deployed, you have optimized for the wrong thing.
+
+Kaggle is most valuable as a first project when you have zero portfolio. Once you have one deployed end-to-end project, the marginal value of more Kaggle notebooks drops significantly.
+
+Tip 4: Get comfortable with the full stack, not just the model
+
+The job title says "machine learning engineer" but the job is 70% engineering and 30% ML. I consistently bombed early technical interviews because I could talk about model architectures but could not discuss how I would serve a model at scale, monitor it for drift, or roll back a bad model update.
+
+The skills that actually came up in interviews: Docker and containerization, model serving (how do you actually get a model into production?), monitoring and alerting, data pipelines that feed your model, API design, and basic DevOps. You do not need to be an expert in all of these. You need to know enough to have a conversation.
+
+For a new grad, this means: deploy at least one project with a real backend, not just a notebook or a Hugging Face demo. Understand how your application would behave under load. Know what you would monitor if you were responsible for keeping it running.
+
+Tip 5: Study the company, not the interview format
+
+Every company's ML interview has a different emphasis. Google emphasizes ML theory and coding. Meta emphasizes system design for ML at scale. Startups emphasize practical ability to ship. If you prepare for Google-style interviews for every company, you will perform well at Google and mediocrely everywhere else.
+
+Before every interview, do research: what does this company's ML infrastructure look like? What ML problems are they solving? What do employees say about the interview process on Glassdoor and Blind? Then tailor your preparation. Show up knowing something specific about their system and how your experience is relevant to it.
+
+The candidates who make it to offers are not necessarily the best ML engineers. They are the ones who showed up prepared for that specific interview, at that specific company, solving that specific problem. Generic preparation gets generic results.

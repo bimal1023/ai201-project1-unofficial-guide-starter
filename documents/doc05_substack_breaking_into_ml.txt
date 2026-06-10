@@ -1,0 +1,51 @@
+SOURCE: Substack: Master's grad documents 7 months and 20 interviews to break into ML
+URL: https://kndrej.substack.com/p/breaking-into-ml-as-a-new-grad
+DATE: 2024
+============================================================
+
+I spent the last seven months on the job market looking for an ML position as a fresh Master's graduate with no prior professional experience. During this time, I interviewed for 20 different roles with companies like Adobe, Snowflake, Zoom, AMD, and Qualcomm (choosing to omit the names of a few other companies and start-ups). After a challenging process, I finally received my first offer from one of my target companies.
+AI and ML are vast fields encompassing a wide range of job opportunities. My focus was on engineering/research roles related to data-intensive models, particularly large language models and diffusion-based models. I'm not discussing positions in data science, analytics, or non-engineering roles like Product Management here. While AI and ML are distinct, for simplicity, I'll refer to them collectively as AI/ML throughout this blog. Additionally, my perspective is primarily centered on the US job market, as that's where I'm currently based.
+One of the reasons so many people struggle with getting a job in AI/ML is the hype and the "seemingly" low barrier of entry. It is trivial to complete the Andrew NG course on Coursera and run a few Colab Notebooks. Also, libraries like Hugging-Face make it easy to run models like Stable Diffusion without the need to understand the years of research,
+, and engineering that went behind it. This is good for people who want to try out these models, researchers doing multiple quick experiments, and even artists. Running scripts and completing online courses takes little to no effort while giving a false sense of being interview-ready.
+Real effort is required when you start to understand the mathematics behind the models, the engineering skills required to serve these models, the data engineering skills required to collect and clean the data for these models, and the research to create new models.
+I often hear people express their desire to become "ML engineers," when asked what that entails, they typically respond with "wanting to train ML models." However, for many, this simply means watching the loss decrease during training. In reality, training an ML model is a complex process that requires a team effort, with engineers possessing one or more specialized skills.
+Researcher (usually a PhD) with papers in conferences like NeurIPS, ICML, CVPR, EMNLP, etc.
+Experience optimizing and serving models in production.
+Strong background in data engineering, such as ETL, data warehousing, data cleaning, etc.
+Strong background in infrastructure engineering, such as managing large clusters, load balancing, autoscaling, etc.
+Experience in training models, including deciding the architecture, hyperparameters, loss functions, etc.
+Strong background in hardware engineering, such as designing ASICs, FPGAs, etc.
+Looking closely, most of these skills are not exclusive to ML; they are transferable across various software roles. As a result, many ML roles require at least 3-5 years of experience in a software-related position. But then how does a fresh grad break into this field? A classic “chicken or egg” situation.
+Have a deep understanding of the mathematics behind models, such as backpropagation, optimization algorithms, loss functions, activation functions, etc. Don’t just read them; implement them in Python or CUDA.
+: Contrary to common belief, Leetcode is equally important to crack ML roles. I was asked leetcode style questions by almost every company. Practicing NeetCode 150 (Easy and Medium) helped me answer most interview questions.
+Having a good internship experience: Internships are usually easier to get than a full-time job and add much value to your resume.
+These skills are crucial, but given the competitive nature of the field, it’s essential to have something that sets you apart.
+as a Bachelor/Masters student in top ML conferences (publication in a no-name conference won't help). Since a publication is not easy, good research experience is also highly valuable.
+Like research, open-source contributions are highly valued in ML. For freshers, starting with open-source can be intimidating due to the large and complex codebases. One strategy is to start with issues labeled
+”. They are easier to start with, and you can proceed from there as you become familiar with the project. However, contributing doesn’t always mean diving into these massive projects. Another approach is to create your repository; it can be
+, a "Chat with PDF" app, LLM in pure CUDA, or SoTA quantization algorithms. People learning these topics can benefit from your work, and your repositories may gain attention and stars.
+required in the ML industry, such as Quantization, CUDA programming, Compilers for ML, etc. These skills take time to learn but are highly valuable.
+Below is a list of questions I was asked in the interviews for the above-mentioned skills. They are not company-specific.
+: Backtracking, Detecting cycle in a directed graph, Finding subarray with the maximum sum, 2 Sum, Implementing BFS, DFS, Weighted traversal, Create a dictionary from a list of words (Trie), Topological sort, Find if an event can be scheduled with given prior events, use python decorators.
+Decoder-only transformer model (asked by around 7-8 interviewers), Batch Normalization, 2-D convolution in Numpy with padding and stride, Back-propagation in 2-layer NN, Simple RAG pipeline.
+What is the difference between L1 and L2 regularization? Difference between RNN, LSTMs, and Transformers? How do you handle class imbalance? How do you handle missing data? How to handle overfitting/underfitting?
+Explain Layer Norm, Batch Norm, RMS Norm, etc., and when should you use one over the other? How do you handle vanishing/exploding gradients? Explain the Attention mechanism and the intuition behind it. Explain activations like ReLU, Swish, GLU, GELU, etc.
+How do you serve a model in production (Approach is as a traditional sys design problem)? Explain the KV cache and the memory requirements for using it. Why is Flash attention needed, and how does it work? How do you deal with terabytes of data for training? Design an active training pipeline. What is Continuous and dynamic batching? How do you process millions of documents?
+How does a Diffusion model work? (Can explain using score-based modeling, Flow-based modeling, etc) How is it different from GANs, VAEs, etc? How is it different from autoregressive models like LSTMs, Transformers, etc? Explain sampling techniques like DDPM, DDIM, etc. What is classifier-free guidance? Have you ever trained a Diffusion model?
+Explain Attention and the intuition behind it. Explain various types of position embeddings like RoPe, Absolute, etc. Why is a product of the Q and K matrix normalized? How is LLaMA different from GPT-2? What is LoRA? How do you finetune a model? What are the memory requirements to serve an LLM? How do you evaluate a LLM? What is RLHF, and why is it needed?
+Explain Quantization, Explain or implement AbsMax, Zero-point, AWQ, Smooth Quant, their drawbacks, and Quant training techniques like QAT, PTQ, etc. What is Perplexity?
+You’re not expected to know all of these topics. The questions you’ll face will vary based on your job description, experience, and the projects listed on your resume.
+Avoid using tools like GitHub Copilot
+during interview preparation; they make you lazy. Writing a code from scratch takes effort; Copilot is okay to use while working full-time.
+: Most interviews I got were through cold messaging a hiring manager who posted a job on LinkedIn.
+) is a good way to stay current.
+: Don’t chase after the “ML” job title, especially in today’s market. If you excel in a domain outside of ML and want to transition, looking for opportunities while continuing in your current area of expertise might be wise.
+It is easy to mention a model used in a project without a complete understanding. The interviewer usually expects you to know the model in depth, including how it works, the training methodology, the dataset used, results, etc.
+Luck plays a big role
+. Even if you perform well in every interview, you might still face rejection. Companies often don’t provide feedback after a rejection, so it’s important to take some time to reflect on what might have gone wrong, learn from it for your next interview, and then move on.
+Finally, keep your family close and your friends even closer.
+There is also the case of a bad job market. Tech jobs, in general, have declined since 2022, which adds another layer of difficulty.
+AI/ML is still a nascent field with much work to do.
+. Don’t just sit and watch YouTube tutorials or run Colab notebooks. Do tasks that require active effort, like leetcode, good research, implementing new algorithms from scratch, and making positive contributions to the Open-Source community (OS contribution takes effort; don’t do it just
+for the sake of it
+). Have faith in yourself, and you'll get there.

@@ -1,0 +1,118 @@
+SOURCE: CodePath guide: How AI is changing recruiting and what students can do to stand out
+URL: https://www.codepath.org/news/ai-in-recruiting-guide
+DATE: 2024
+============================================================
+
+AI in recruiting is transforming how companies source, assess, and hire talent—especially in technical fields. With rising pressure to close skills gaps and hire faster, more recruiters are turning to AI-powered tools to streamline operations and improve recruitment ROI. From candidate screening to workflow automation, AI is shaping the future of hiring.
+
+People are a company’s greatest competitive advantage. But organizations of all sizes struggle to source talent at scale, especially for technical roles. Despite
+record layoffs in the technology sector in 2023
+, 87% of IT leaders, for example, report
+facing a digital skills shortage
+
+Now, recruiters are turning to AI-powered tools to make hiring faster and smarter. A full 96% of
+HR professionals believe AI will have a significant impact
+on talent acquisition. These tools are an increasingly popular choice for tasks ranging from talent sourcing and screening, to recruitment workflow optimization and objective skill-based testing.
+
+In this guide, we survey the current state of AI recruiting—from AI technologies and their applications, to the challenges associated with implementation.
+
+What is AI in Recruiting?
+
+In AI-driven recruitment, recruiters leverage AI-enabled software and other technology to connect with the best talent as quickly as possible. This allows them to fill talent gaps more efficiently.
+
+AI isn’t a replacement for human recruiters
+. It instead acts as a support system at each stage of the hiring process, augmenting human insight with increased agility and factual accuracy. In the process, it also saves time and money, contributing to a higher recruitment ROI.
+
+Companies of all sizes, including enterprises, have already adopted AI recruiting processes at scale. For example,
+is an all-in-one platform for candidate screening and assessment.
+deployed Pandologic’s automated job advertising application to reduce cost per applicant by nearly 86%.
+
+99% of Fortune 500 companies
+have already implemented some aspects of AI technology in their hiring processes, and 65% of recruiters have, too.
+
+Key Ways AI Supports Modern Recruitment
+
+AI recruiting tools have driven considerable impact for recruiters—streamlining processes and analyzing large volumes of data in a fraction of the time humans would take. Here are some of the most popular use cases for AI in recruiting.
+
+hiring professionals say AI saves them time
+during the hiring process. AI tools are useful for handling the minutiae of everyday recruiting tasks, such as:
+
+Writing job descriptions and outreach messages
+
+Analyzing and shortlisting suitable CVs based on career track, skill sets, and other pre-specified criteria
+
+Helping candidates self-schedule interviews by showing them available time slots and sending out auto-reminders
+
+Making transcripts of virtual interviews
+
+Consolidating feedback across hiring teams and functional orgs
+
+The cumulative effect of all this help? Freeing up recruiter and people operations time for more high-value activities, like in-depth interactions with the candidate or strategic optimizations.
+
+More than half of recruiters say shortlisting candidates from a large applicant pool is the hardest part of recruiting. AI vastly speeds up this process with resume-screening algorithms that look beyond mere keyword recognition. By identifying patterns, e.g., types of projects worked on, tenure across positions, or leadership roles held, AI synthesizes insights into candidate suitability for the role in question.
+, for instance, highlights characteristics like validated skills and likely skills to paint an accurate picture of a candidate’s potential.
+
+AI-powered assessment tools present an efficient way to objectively evaluate a candidate’s strengths. The best tools can even personalize the difficulty level of the questions based on the candidate’s detected skills;
+, for example, does this via a tech-focused candidate assessment solution.
+
+AI-powered chatbots can answer questions and help candidates through each step of the hiring process. These chatbots use conversational AI powered by Large Language Models (LLMs) to learn about a candidate’s skill sets and guide them towards the best open roles, reducing time-to-hire and application drop-off rate.
+
+Electrolux Group implemented Phenom’s AI-powered platform
+to provide targeted job recommendations to candidates, enable auto-scheduling of interviews, and conduct one-way interviews that recorded text and audio/video responses. As a result, the company saw a 51% decrease in incomplete applications, a 9% decrease in time-to-hire, and a 78% increase in time saved through AI scheduling.
+
+AI can help to remove unintentional bias and evaluate candidates
+more fairly. Recruiters can leverage these tools to implement a standardized screening process that shortlists candidates based on demonstrated ability alone, while generative AI can flag exclusionary language or hidden biases in hiring-related content.
+does this excellently by providing instant recommendations for bias-free language choices in job descriptions and performance reviews.
+
+Core Technologies Behind AI Recruitment
+
+While new applications continue to be developed, these are some of the most common AI recruitment technologies available.
+
+Natural language processing is a useful tool for understanding candidate strengths and attributes based on their choice of words. It can identify points of interest in interview transcripts or text-based responses and provide recommendations for further discussion.
+
+AI tools can scan job boards, social media platforms, and industry-specific community forums to identify candidates who match pre-selected job requirements.
+
+AI can deliver insights about a candidate’s potential based on their resume, skill sets, social media presence, and interview performance. It can also identify indicators of how they’re likely to stay on the job.
+
+For all the improvements it offers, AI recruitment comes with unique considerations. Some of the challenges recruiters leveraging these technologies face are well documented.
+
+An AI application is only as good as the data models that train it. If a company or industry has a history of hiring biases, whether conscious or unconscious, the application can pick up these biases and replicate them at scale. Generative AI, for all its capabilities, can also
+if its training data reflects them. For instance, if past hiring data disproportionately excluded candidates from underrepresented backgrounds, an AI trained on that data could learn to do the same. Without human oversight and properly curated training inputs, AI risks reinforcing the very inequities it aims to address.
+
+AI’s interpretation of facial cues and body language during virtual interviews can be misleading, introducing the possibility for bias toward candidates.
+
+For instance, an AI tool might note that a candidate who sits stiffly and shows no visible emotion has less of a positive attitude. But the candidate in question might have a physical or neurodevelopmental disability limiting the expressions they can show or might come from a culture where displaying emotion during the interview process is discouraged.
+
+Many AI recruitment tools don’t offer customization options for their technical assessments. By using them to screen candidates, companies might end up shortlisting people who have general technical proficiency but not the specific skill set that the company is looking for.
+
+AI recruiting tools use sensitive candidate data to analyze candidate suitability. Without mature data policies and practices in place, sharing proprietary applicant data with AI tools can incur high security risks.
+
+While many AI recruiting tools are affordable, integrating them with the rest of the tech stack can be challenging. This is especially true for large enterprises using on-prem or legacy technology.
+
+One concern with an AI tool driving processes like resume screening or preliminary testing is the lack of insight into its decision-making process, especially when selecting or deselecting a candidate. If AI screens out a candidate before any human recruiter views the candidate’s application, new oversight strategies are required to assess the decision and determine whether the AI acted appropriately.
+
+While AI recruitment tools are adept at screening profiles on job boards, they lack the ability to nurture and develop sustainable talent pipelines. The technical talent gap urges many companies to identify early-career talent who can join the workforce with job-ready skills. This is a task best suited to internal teams or external partners equipped to source and train young graduates before they enter the job market.
+
+For example, CodePath partners with the world’s top brands to source and develop tomorrow’s tech leaders. Learn more about
+
+Building a Smarter Recruiting Strategy With AI
+
+Vet AI Vendor Compliance Practices
+
+With a vast range of AI recruiting tools on the market, recruiters need to exercise due diligence when choosing. Questions to ask AI vendors include where they get their data from, what data compliance practices they abide by, who can access the data, and what data security measures they have in place.
+
+Prioritize Functionality to Maximize ROI
+
+To get the most ROI, companies should invest in AI solutions that have the most impact at the lowest cost. For instance, it makes sense to invest in tools that help candidates schedule interviews, since the primary criteria there are speed and convenience.
+
+AI cannot and should not ever be a replacement for human judgment. While AI can rank candidates based on resume points or interview performance, recruiters should only use the data as a guide and not as a substitute for their own impression of the candidate. By setting clear guidelines around where exactly AI can contribute, recruiters can benefit from the convenience that it brings without compromising on empathy, intuition, and human fairness.
+
+The Future of AI in Recruiting Is Human-Centered
+
+AI has already proven its value in helping companies hire more efficiently, objectively, and at scale. Yet, its most meaningful impact lies in how it empowers recruiters, not replaces them.
+
+The future of AI in recruiting will be shaped by how well we blend automation with human insight. While AI handles tasks that benefit from speed and pattern recognition, people remain essential for empathy, intuition, and connection - especially in early-career hiring, where potential matters as much as experience.
+
+As hiring strategies evolve, so does the demand for AI-native talent: engineers who are not only technically strong but also adaptive, collaborative, and ready to thrive in an increasingly automated world.
+
+To learn more about how forward-thinking companies are engaging with AI-ready talent, and how you can strengthen your early-career pipeline, get in touch with our team and learn more about

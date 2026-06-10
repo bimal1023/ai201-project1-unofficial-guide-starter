@@ -1,0 +1,26 @@
+SOURCE: Reddit: Is the AI job market actually good for engineers right now?
+URL: https://www.reddit.com/r/cscareerquestions/comments/1sg57ba/job_market_is_amazing_for_ai_engineers/
+DATE: 2025
+============================================================
+
+Title: Job market is amazing for AI engineers
+
+The AI engineering job market is genuinely bifurcated right now. If you have actual production LLM experience — RAG pipelines, fine-tuning, evals, inference optimization — the market is strong. If you are a generalist SWE who added "AI" to your resume by calling the OpenAI API twice, you will find the market exactly as competitive as before.
+
+The honest answer from someone who just finished a long interview loop: top-tier AI roles at OpenAI, Google DeepMind, Anthropic, and Meta AI have gotten harder to break into, not easier. They are now looking for research depth that used to be reserved for PhD candidates. But mid-tier companies — startups, Series B/C AI companies, enterprise software teams adding AI features — are desperately hiring engineers who can ship working AI systems.
+
+What actually matters for these mid-tier roles: Can you take a poorly-scoped AI feature request and turn it into a production system? Can you evaluate whether your retrieval is actually working, not just demo it in a notebook? Can you explain why your model is wrong and do something about it? These are the questions that filter out candidates who only know the APIs.
+
+For new grads specifically: the Master's degree question is real. At Google, Meta, and Amazon, MLE positions almost universally require an MS or PhD, or an exceptional portfolio with deployed systems at scale. BS grads at those companies typically enter as SWEs and transition internally after 12-24 months. This is not gatekeeping — it reflects that ML systems at those companies require understanding distributed training, model parallelism, and optimization techniques that are genuinely graduate-level material.
+
+The good news is that the AI tooling ecosystem has created a second track: applied AI engineering. You do not need to understand backpropagation to build a RAG system that works. You need to understand chunking strategies, retrieval metrics, context windows, and prompt engineering. These skills are learnable by any strong SWE, and the demand for them is real and growing.
+
+My advice: stop trying to get hired as an MLE at a big tech company straight out of undergrad. Get hired as a SWE or data engineer at a company building AI products, ship real systems, and make the transition internally. That path works reliably.
+
+If you are a BS student graduating this year: your realistic targets are ML platform engineers, MLOps engineers, AI product engineers, data scientists at companies doing real ML, and research engineers at AI startups. The pure MLE track at FAANG is highly competitive and typically requires either an MS/PhD or a genuinely exceptional portfolio with deployed work and measurable outcomes.
+
+Skills that made candidates stand out in interviews this year: demonstrated ability to debug retrieval failures (not just implement retrieval), experience with evaluation frameworks (not just vibes), and at least one project where they deployed something real users interacted with and they monitored production behavior.
+
+Kaggle is viewed as a positive signal but not a differentiator. Most strong ML candidates have some Kaggle experience. What differentiates is deploying something end-to-end, dealing with real data quality issues, and being able to talk about latency, cost, and monitoring in a production context.
+
+The worst thing you can do is have a GitHub full of tutorial notebooks. Anyone can run a Jupyter notebook. Show me something you built, deployed, and maintained.

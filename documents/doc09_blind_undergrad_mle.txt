@@ -1,0 +1,33 @@
+SOURCE: Blind: Can undergrads realistically get MLE roles at top companies?
+URL: https://www.teamblind.com/post/machine-learning-engineer-as-a-new-grad-3o7sejji
+DATE: 2023
+============================================================
+
+Thread: Machine learning engineer as a new grad — is it realistic with just a BS?
+
+Post:
+Getting ready to graduate with a BS in CS from a good state school. GPA 3.7, two ML research internships, one Kaggle competition (top 15%). Targeting MLE roles. People keep telling me I need a Master's. Is this true? What's the realistic path here?
+
+Reply 1 (L6 at Google):
+Bluntly: yes, for Google MLE the bar is effectively MS/PhD for new grads. We do hire exceptional BS grads but they need publication-quality research or extremely strong internship performance at top-tier companies. Two research internships and a Kaggle top-15% is a good profile but not differentiated enough for Google MLE new grad. You would be competitive for APM, data science, or entry-level SWE roles at Google.
+
+Reply 2 (E5 at Meta):
+Meta is similar. Our MLE new grad pool is dominated by MS/PhD candidates. The rationale: MLE work at FAANG involves working with models that have genuine engineering complexity — distributed training, inference optimization, A/B testing infrastructure. An MS gives you 1-2 years of exposure to that complexity in an academic setting. Without it, you need equivalent real-world experience to demonstrate you can ramp up quickly.
+
+Reply 3 (ML lead at startup):
+The "you need MS" advice is FAANG-specific. At the Series B company I work at, we have hired multiple BS grads as MLEs. What we care about: Did you ship something? Can you debug a system that is not working? Do you have opinions about tradeoffs, not just knowledge of algorithms? A BS with two deployed projects and thoughtful reasoning about design decisions will beat an MS with only coursework every time for us.
+
+Reply 4 (ML engineer, 3 YOE):
+I got my first MLE role with a BS by being extremely intentional about my portfolio. I built three projects: one that used a well-known algorithm to solve a real problem (not a toy), one that was deployed and had real users, and one that involved contributing to an open-source ML project. The deployed project was the differentiator. Companies want evidence you can take a model from notebook to production. A BS candidate who has done that is more valuable than an MS candidate who hasn't.
+
+Reply 5:
+The uncomfortable truth: the people saying "you need an MS" are often people who got their jobs 5+ years ago when the market was different. The applied AI engineering space has matured. Companies want engineers who can use AI tools to solve problems. Many of them do not require advanced ML knowledge. The market for "AI engineer who can build systems" is more accessible to BS grads than the market for "ML researcher who understands training dynamics."
+
+Reply 6 (recruiter at AI startup):
+From the hiring side: the most common reason we reject BS MLE candidates is not credentials, it is the inability to demonstrate production ML experience. "I trained this model on Colab" is not production experience. "I deployed this API, monitored its accuracy over time, and improved it when I saw degradation" is production experience. BS or MS does not matter to us if you have the latter.
+
+Reply 7:
+Realistic path for OP: apply broadly to startups and smaller companies with your profile. Convert one of those to an offer. Work there for 12-18 months shipping ML systems. Then target FAANG with real production experience on your resume. A BS + 1.5 years of real MLE experience is much more competitive than MS + 0 production experience.
+
+Reply 8 (FAANG MLE):
+The MS requirement at big companies is partly credential, partly signaling. Companies receive thousands of applications. An MS filter reduces the pool to a manageable size for recruiters. It is unfair but it is how large-scale hiring works. If you want FAANG with a BS, you need something that makes your resume clearly stand out from the pile before it reaches a human — either a known-company internship, a publication, or a project with verifiable public impact.

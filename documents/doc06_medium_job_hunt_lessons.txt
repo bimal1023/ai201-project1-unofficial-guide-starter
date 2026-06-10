@@ -1,0 +1,40 @@
+SOURCE: Medium: GitHub presence, deploying projects, and why certificates matter less than skills
+URL: https://medium.com/@moeinh77/lessons-learned-during-my-entry-level-software-engineering-job-hunt-78c7e6b37342
+DATE: 2023
+============================================================
+
+Lessons Learned During My Entry-Level AI/ML Job Hunt
+
+After six months of job searching, 40+ applications, and many rejections, I finally landed a role as an ML engineer at a mid-size tech company. Here is what I learned.
+
+Lesson 1: Deploy something, anything
+
+The single biggest difference between my applications that got callbacks and those that did not was whether I had a live demo. When I linked a GitHub repo, interviewers glanced at my code and moved on. When I linked a live app — even a simple one — they actually used it and asked real questions about it. Deploying on Hugging Face Spaces is free and takes two hours. There is no excuse for not doing this.
+
+The project that got me the most interview traction was a question-answering system over a small domain I cared about. It was not technically impressive, but it was live. It showed I understood the end-to-end: data collection, preprocessing, embedding, retrieval, and a working interface. The fact that it had real users (even if just me and a few friends) gave me something concrete to talk about in every interview.
+
+Lesson 2: Your GitHub activity graph matters more than your project list
+
+Recruiters look at the green squares. A sparse GitHub tells them you are only coding when assigned to. A dense GitHub tells them you are a person who actually writes code. This does not mean gaming the streak. It means building the habit of working on something every day, even if it is small. Fixing a bug, writing a test, adding documentation — these all count.
+
+Beyond the activity graph: make sure your pinned repositories actually demonstrate your skills. I had pinned a repository from a university project that was 3 years old and full of bad code. When I cleaned up my pinned repos and added proper READMEs with problem statements, screenshots, and results, my response rate from recruiters improved noticeably.
+
+Lesson 3: Certificates are table stakes, not differentiators
+
+I had completed the Coursera Deep Learning Specialization and the fast.ai course. These helped me learn, but they did not help me get interviews. Every candidate in the ML pipeline has some certificates. What differentiates you is evidence that you applied what you learned to build something real.
+
+I stopped listing my certificates as a separate section on my resume and instead made them part of the "education and self-study" section. The space I freed up went to a longer description of my deployed projects. This change had an immediate positive effect on my callback rate.
+
+Lesson 4: Be able to explain why your project failed in specific ways
+
+The interview question that separated good candidates from great ones was not "tell me about a project" but "tell me about a time your ML system did not work the way you expected." If you have only worked on tutorial notebooks, you have no answer to this question. If you have deployed something real, you have a dozen answers.
+
+My answer: my semantic search system consistently returned irrelevant results for short, keyword-style queries. After investigation, I realized the issue was that my chunks were too small — at 200 characters, there was not enough semantic context for the embedding model to differentiate signal from noise. I increased chunk size to 400 characters with 50-character overlap and retrieval quality improved significantly.
+
+This kind of answer shows debugging ability, system understanding, and the willingness to iterate. It is far more valuable than claiming your project worked perfectly.
+
+Lesson 5: Apply early and apply to startups
+
+The biggest-name companies were not where I got my first offer. My offer came from a 60-person AI startup that was moving fast and needed someone who could ship. Startups have lower hiring bars for specific credentials (no GPA cutoff, no "only MS/PhD") and higher bars for demonstrated ability to move fast and figure things out. If you are a BS grad with strong projects, startups are your best path to a first role.
+
+Apply as soon as job postings go live. Positions at good startups fill fast — sometimes within two weeks. Applying a month after a posting went live means your resume goes into a pile that nobody reviews.

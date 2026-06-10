@@ -1,0 +1,33 @@
+SOURCE: Blind: SWE new grad transitioning into ML — honest peer advice
+URL: https://www.teamblind.com/post/advice-for-transitioning-into-ai-f3yng3y0
+DATE: 2023
+============================================================
+
+Thread: Advice for transitioning into AI as a new grad SWE
+
+Post:
+Just started as a SWE at a mid-size company. Realized I want to be doing ML/AI work. My company has an ML team but I do not work with them. What is the realistic path to transition either internally or externally to an ML role? Is 1-2 years of SWE experience enough, or do I need an MS?
+
+Reply 1 (ML engineer who transitioned from SWE):
+I did exactly this. Spent 18 months as a SWE, then transitioned. What worked: I found a project in my SWE role that had a natural ML component — a rule-based classifier we used for content moderation. I volunteered to rebuild it as a real ML model. It took 6 months of evenings and weekends, but by the end I had shipped a production ML model at my current company, with measurable improvement over the baseline. That was my portfolio piece. I used it to transfer internally first, then to interview externally.
+
+Reply 2 (L5 at Meta):
+The internal transfer path is underrated. If your company has an ML team, the most reliable way to transition is to: find a project where ML/AI intersects with your current work, build something on your own time, demo it to your manager and the ML team lead. Show you can do the work before you ask to be on the team. Companies want to see initiative, not just interest.
+
+Reply 3 (ML engineer at startup):
+For external transitions: 1-2 years SWE + strong ML side projects is enough to get into applied AI roles at startups. It is not enough for FAANG MLE. Set your target realistically. A startup that is building AI products needs engineers who can move fast. Your SWE background (system design, writing production code, code review, debugging in production) is actually an advantage over a fresh MS grad with stronger ML theory but weaker engineering.
+
+Reply 4 (hiring manager):
+I hire for a team that does a lot of AI engineering. What I look for in a SWE-to-ML transition candidate: 1) Clear motivation — not just "AI is hot," but a specific problem they want to solve with ML. 2) Self-directed learning — evidence they studied ML on their own, not just "I am taking a course." 3) At least one shipped ML project. 4) Strong SWE fundamentals — the ML part I can teach; the ability to write clean, production-quality code is harder to teach.
+
+Reply 5:
+Brutal but useful: most people who say they want to transition into ML do not actually do the work. They take a course, they think about starting a project, they never finish it. The market is full of people who "know ML" at the course level. The actual differentiator is completing projects to the point of deployment. If you finish one end-to-end project — data collection, training, serving, monitoring — you will be ahead of 80% of people claiming to be transitioning into ML.
+
+Reply 6 (ML PM at Google):
+Separate from the MLE path: AI product management is an underrated transition. If you are at a company with AI products, you can transition to PM with a mix of your technical background and business understanding. ML PMs are in high demand and the path from SWE is more accessible than the path from SWE to MLE in terms of credential requirements.
+
+Reply 7:
+Timeline reality: if you start a serious ML side project today, in 6 months you could have something deployed. In 12 months you could have something you have iterated on enough to talk about in depth. In 18 months your SWE experience plus your deployed ML projects is a genuinely competitive portfolio for AI engineering roles. Do not wait for the "right time" or "enough knowledge." Start now with what you know and learn by doing.
+
+Reply 8:
+What I wish someone had told me: the skills you already have as a SWE (version control, testing, CI/CD, code review, debugging production systems) are genuinely rare among ML practitioners who came from research backgrounds. Do not undersell your SWE experience when interviewing for ML roles. Position it as a strength: "I can ship the thing you need built and I am also learning the ML part" is a genuinely valuable profile.

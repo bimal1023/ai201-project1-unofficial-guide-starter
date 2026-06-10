@@ -1,0 +1,85 @@
+SOURCE: Substack: STEP framework for building an ML portfolio that stands out to recruiters
+URL: https://merinova.substack.com/p/how-to-build-a-machine-learning-portfolio
+DATE: 2024
+============================================================
+
+I am an ML / AI Engineer and a Founder at
+In 2024, Thanks to GenAI, the Machine Learning field is becoming a very attractive career path and the demand for ML and AI engineers is only growing.
+But how do you stand out from thousands of applicants, especially when you have no prior experience?
+You need a strategically crafted portfolio that shows domain expertise.
+Don’t try to be an expert in everything. Pick 1-2 areas of expertise in Machine Learning, from CV, NLP, Recommendation Systems, Reinforcement Learning or GenAI. Then build your portfolio accordingly.
+Remember, your portfolio is the proof behind your resume, its a chance to show real evidence of your skills!
+After researching dozens of successful ML portfolios from our experts in the community, I've identified four key traits that made them stand out:
+They all solve a unique problem in their industry
+They all show expertise in the most common ML tools and libraries
+They all have clear documentation that demonstrates the impact
+Focus on implementing these 4 traits that are organized into the "STEP" framework.
+Learn and use industry-relevant tools
+Write clean code according to best ML engineering practices
+Now, let’s break each step down with practical tips and resources.
+Most beginners make the mistake of focusing too much on the technical delivery.
+When in reality, employers want to see whether you can deliver real business value from day 1.
+That is why I always recommend my mentees to focus on a subject they're genuinely passionate about. It makes a huge difference.
+When you're personally invested, you're more likely to dive deeper, experiment with feature selection, fine-tune metrics, and ultimately boost your model's performance.
+It demonstrates that you truly care about the problem.
+After deciding on the industry, research the most commonly used tools and tech stack.
+Cloud Platforms: Choose 1-2 from AWS, GCP, and Azure
+DL Libraries & Frameworks: PyTorch, Langchain, BERT, Hugging Face
+CI/CD: GitLab CI, GitHub Actions
+Data Processing: Pandas, Polars, Spark, Roboflow
+Demonstrate your ability to apply these tools in a production environment.
+Use GCP to ingest and store CSV files
+Clean and preprocess data with Spark
+Train your model with Hugging Face Transformers
+Serve and wrap it with a REST API
+❗️ Remember to include proper documentation explaining deployment and navigation.
+💡 In the ideal world, your project should already be contained in a Docker container and wrapped in a web service (e.g., using Flask or FastAPI), as this is a common point of handing off a model to SWE or DevOps teams for deployment.
+Experienced engineers can assess the quality of your work within the first seconds of reading your code, so attention to detail is crucial.
+Host your project on the organized Github repo and not a messy Notebook!
+Implement version control for code, data, and models (use DVC or MLflow)
+Write unit tests and integration tests for critical components ( nice to have!)
+Provide comprehensive documentation (README.md and inline comments)
+, you're writing code for other engineers, not machines.
+: Don’t focus only on generic model performance metrics (like precision, recall, and F1-score.). Find out what metrics are important in your specific ML use case or industry. (like ROUGE for NLP, or click-through rate for RecSys, etc)
+: Always start with domain knowledge to create meaningful features to capture the essence of your problem. Relevant features often mean more than complex models.
+: Design your model architecture to match the structure of your data and the complexity of your problem, considering factors that are important in your domain (e.g., interpretability for healthcare or computational efficiency for the software industry)
+: When standard loss functions don't align with your project's goals, don't hesitate to design custom loss functions that better represent the problem you're trying to solve. (Shows both your domain expertise and your technical skills)
+If you are feeling extra 🌶️, try these :
+: Leverage diverse model ensembles to improve the model’s accuracy and robustness, as different models often capture different aspects of the data.
+: Use automated hyperparameter tuning techniques to efficiently explore the parameter space and optimize model performance.
+: Prioritize model interpretability, especially in high-stakes domains, to explain your model's predictions and build trust with your non-existent stakeholders. ( fake it till you make it)
+While many ML candidates focus solely on their GitHub repos, one of the most powerful ways to stand out is through
+. Whether you're writing Medium blog posts, sharing your work at ML and AI communities, or even publishing papers, you will build your reputation as an expert!
+💡 Remember, it’s not just about what you’ve done but the
+you’ve achieved. The most impressive portfolios quantify the value you’ve added.
+Whether it’s a blog post, GitHub README, or presentation, make your projects rich in
+for the hiring managers to understand the
+If you improved a recommendation system, you should say:
+"Improved recommendation system precision by X%, leading to a Y% increase in click-through rates and an additional Z$ in monthly sales for this particular product."
+using a bar graph or time-series chart to clearly show the improvement.
+If you're unsure where to begin start by exploring data sources for inspiration.
+- 670 datasets maintained by UC Irvine
+- Largest collection of 100s of public APIs
+: A vast repository of open static datasets
+: A hub for open datasets, particularly for NLP, CV and Audio
+- allows you to search for datasets hosted on other websites
+- Curated list of 920 open-source ML libraries on Github
+- our Data and ML community on Discord.
+- active Deep Learning community on Discord.
+- another awesome Discord server.
+- a place to store and deploy your models and apps
+- mostly used by hackers and entrepreneurs and is run by YC.
+- submit your code implementations of popular papers.
+- online and offline hackathons with great prizes
+- largest ML competition platform
+Start simple and build gradually.
+
+Avoid diving into the most complex machine learning algorithms at the start. Focus on mastering the fundamentals, by implementing the simplest version first. Once you have a working model, explore how it can be improved based on the industry metrics.
+
+- and build an ML portfolio that not only showcases your technical skills but also demonstrates your business acumen, communication skills, and ability to make a real-world difference.
+Let your work speak for itself!
+We have an upcoming career session with
+, founder of the largest open-source library for GenAI resources on
+. An Applied Scientist Tech Lead at AWS, Lecturer, and Content Creator!
+You will learn about Aishwarya's career journey and her thoughts on the future of GenAI.
+Stay tuned for more resources on building a career in ML and AI!

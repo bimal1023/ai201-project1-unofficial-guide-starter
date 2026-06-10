@@ -1,0 +1,42 @@
+SOURCE: Medium: Non-tech background to Senior ML Scientist at Amazon, internship by internship
+URL: https://medium.com/data-science-collective/how-i-went-from-non-tech-to-senior-machine-learning-scientist-at-amazon-4f794de17499
+DATE: 2024
+============================================================
+
+How I Went From Non-Tech to Senior Machine Learning Scientist at Amazon
+
+This is my career story, written because I wish someone had told me that the path does not have to be linear.
+
+I graduated with a degree in economics and a minor in statistics. No CS coursework beyond an intro class. I could not code past Excel when I started. Eight years later, I am a Senior ML Scientist at Amazon. Here is what I actually did.
+
+Stage 1: The foundation (years 1-2)
+
+I took a data analyst role at a small e-commerce company. My job involved SQL, Excel, and basic reporting. I spent evenings learning Python through a Coursera course. After six months, I was automating my own reports in Python. After a year, I had built a simple churn prediction model that saved the company a meaningful amount on customer acquisition spend.
+
+The lesson from this stage: find a way to apply your learning to real business problems immediately. Do not learn in isolation. Find the overlap between what you are learning and what your company actually needs, and do that work.
+
+Stage 2: First data science role (years 3-4)
+
+I leveraged the churn model I had built to transition to a proper data scientist role at a slightly larger company. The key to that transition: I had a documented outcome. Reduced churn by 12%, saved the company an estimated $80K per year. That was a story I could tell in every interview.
+
+At this job, I built real ML models in production for the first time. I learned that production ML is 80% data pipeline and 20% model. I spent more time writing SQL and debugging data quality issues than I ever spent on model architecture. This is the reality nobody tells you in online courses.
+
+Stage 3: Master's degree (years 4-5)
+
+I did a part-time MS in Applied Data Science while working full-time. This was expensive and exhausting, but it gave me two things I could not get elsewhere: the credential that got me past FAANG resume screens, and the academic exposure to ML fundamentals that I was missing.
+
+Was the MS necessary? Honestly, for Amazon specifically at the Senior level, probably yes. But the more important thing was the two years of production ML experience before it. The MS alone would not have gotten me to Senior Scientist. The combination of production experience and credentials was what worked.
+
+Stage 4: Amazon (years 6-8)
+
+I joined Amazon as an L4 Applied Scientist with strong production experience and an MS. The interview was: ML fundamentals (statistics, probability, model evaluation), coding in Python, and a technical case study where I had to design an ML solution for a business problem. My background in economics turned out to be an asset for the business problem portion — I could talk about A/B testing, statistical significance, and business impact in ways that pure CS candidates sometimes could not.
+
+What I would tell someone starting today:
+
+You do not need to start with a CS degree. You need to start building things and accumulating documented, measurable outcomes. Each role should give you something concrete to point to.
+
+The people I see struggle in ML careers are the ones who optimize for credentials over outcomes. They do courses, certifications, and academic projects, but they cannot answer "what did you ship and what happened?" Pick one thing, ship it, measure it, improve it. That story is worth more than any credential.
+
+On the Master's question: I would not say you must get an MS. I would say that if you want a research-heavy role at a large company, the MS substantially increases your chances. If you are targeting engineering roles at smaller companies, strong production experience can substitute. Know which path you are on.
+
+My current team at Amazon looks for: strong statistics fundamentals, ability to own a problem end-to-end, and evidence of working on problems where the answer was not given to you. The candidates who make it through our loop are universally people who have shipped something and can explain why they made the decisions they did.

@@ -1,0 +1,26 @@
+SOURCE: LinkedIn: Recruiter perspective on what hiring managers look for in AI/ML candidates
+URL: https://www.linkedin.com/pulse/how-get-job-ai-katie-burke-cgzwe/
+DATE: 2024
+============================================================
+
+How to Get a Job in AI: A Recruiter's Honest Guide
+
+After reviewing hundreds of AI/ML resumes and coordinating interviews across dozens of companies, the most common failure mode I see is candidates who know the theory but cannot demonstrate applied judgment.
+
+What hiring managers actually look for:
+
+1. Evidence of end-to-end thinking. A resume listing "PyTorch, TensorFlow, scikit-learn, Hugging Face" tells me nothing. A resume that says "Built a document retrieval system handling 50K queries/day with 87% answer accuracy, reducing support ticket volume by 30%" tells me this person ships things that work. Quantify outcomes whenever possible.
+
+2. Ability to talk about failures. The candidates who impress in interviews are not the ones who say everything worked perfectly. They say "my first retrieval system had terrible latency because I was re-embedding at query time — I moved to pre-computed embeddings and cut latency from 4 seconds to 180ms." That tells me they debugged, learned, and improved. Hiring managers want to see that you can identify and fix problems, not pretend they don't exist.
+
+3. GitHub with a clear narrative. Active contribution history. Projects with documentation that explains the problem being solved, not just the code. At least one project with a deployed endpoint or interactive demo. Stars and forks are a positive signal but not required. What is required is evidence that someone other than you might have used this.
+
+4. Domain knowledge appropriate to the role. For ML engineering: understanding of model serving, latency/throughput tradeoffs, monitoring for data drift. For applied science: understanding of evaluation metrics beyond accuracy, understanding of statistical significance. For AI product roles: ability to translate between user needs and model capabilities.
+
+5. Clear communication about what you do not know. Candidates who say "I haven't worked with that specific library but I picked up X in two weeks when I needed it for a previous project" are far more trustworthy than candidates who claim expertise in everything on the job description.
+
+On the Master's degree question: for pure research roles and MLE roles at large companies, an MS or PhD is still the strong default. But the market for AI engineers who can build and ship has opened significantly. If you have a strong BS and demonstrably shipped working AI systems, there are companies that will hire you. The key word is "demonstrably." Blog posts, deployed projects, and documented outcomes are your substitute for a graduate degree.
+
+On certifications: they are not meaningless, but they are not the signal you think they are. A Coursera deep learning certificate tells me you completed a structured curriculum. It does not tell me you can solve a problem that was not handed to you. Certificates are table stakes for some entry-level filters, but they do not differentiate candidates at the interview stage.
+
+The most important thing I can tell any student: get comfortable talking about tradeoffs. Every interviewer worth working for will ask "what would you do differently?" and "what are the limitations of your approach?" Have a real answer ready. The correct answer is never "nothing, it works great."

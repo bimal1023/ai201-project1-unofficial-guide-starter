@@ -1,0 +1,30 @@
+SOURCE: Reddit: Firsthand stories from people who landed their first AI engineer role
+URL: https://www.reddit.com/r/AIAssisted/comments/1taet96/how_did_you_land_your_first_ai_engineer_applied/
+DATE: 2025
+============================================================
+
+Title: How did you land your first AI engineer / applied scientist role?
+
+Comment 1 (upvoted):
+I spent two years as a backend SWE at a Series A startup, started volunteering to own our recommendation system when the ML engineer left, and eventually got a title change to "ML engineer." That internal transition gave me enough to interview externally. My advice: join a small company where you can own the entire ML stack, even if it's scrappy. Having shipped something in production matters more than having a clean notebook.
+
+Comment 2 (upvoted):
+New grad MS. Six months, 20 companies, one offer. The offer came from a company that specifically asked me to walk through a project in depth — not explain it at a high level, but literally show them my code and explain every decision. I had a RAG system I'd built for my thesis. They asked: why did you choose this chunking strategy? What happened when it failed? What metrics did you use to know it was working? I had real answers because I had actually built it and iterated on it. The companies that ghosted me were the ones where I just listed skills on my resume and hoped for the best.
+
+Comment 3 (upvoted):
+BS grad here who got an applied AI role. What worked: I had a deployed project on my resume with a real URL. Not a GitHub link — an actual running demo. During every interview, the interviewer pulled it up and asked questions about it. That led to real technical conversations instead of whiteboard theory. The project was a question-answering bot over a small domain, built with RAG. It was not impressive technically, but it was live and I could explain every decision.
+
+Comment 4 (upvoted):
+I transitioned from data analyst to ML engineer over 18 months. The path: started contributing to an open source ML project on weekends (found issues on GitHub, fixed them, got PR merged), that led to a part-time contract at the maintainer's company, that led to a full-time offer. Open source contributions are underrated. They prove you can write production code, collaborate with others, and navigate a real codebase — not just write self-contained notebooks.
+
+Comment 5 (upvoted):
+The hardest part of landing my first AI role was the expectation gap. I expected "I know PyTorch and have done Kaggle competitions" to be enough. It was not. What they actually wanted: Have you deployed something? Have you dealt with model degradation? Have you evaluated whether your system is actually working? I did not have good answers to those questions until I spent 6 months building a real project with real users (a Discord bot that did semantic search over a game's wikis). After that, I had specific, honest answers to every system design question.
+
+Comment 6 (upvoted):
+Counterpoint to the "you need MS" narrative: I have a BS and landed an AI engineer role at a Series B startup without a graduate degree. The reality is the startup world does not care about your degree if you can show you can ship. My portfolio had three projects: one deployed web app with ML backend, one open source contribution to a hugging face library, and one Kaggle competition where I placed in the top 10%. That combination was enough for an early-stage company to take a chance on me.
+
+Comment 7 (upvoted):
+One thing nobody tells you: the interview process for AI roles varies wildly. Some companies do LeetCode. Some do ML fundamentals (explain gradient descent, what is regularization). Some do system design for ML (how would you build a recommendation system for 10M users). Some just look at your portfolio and have a conversation. You cannot prepare for all of these the same way. Ask recruiters what to expect in each round before you prep.
+
+Comment 8:
+For anyone asking about timelines: 7 months from graduation to first offer was my experience with an MS. I applied to 45 companies, got 15 first-round interviews, 6 technical interviews, 3 onsite/final rounds, and 1 offer. The conversion rates are not great. Do not take rejection personally.
